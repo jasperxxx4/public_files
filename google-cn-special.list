@@ -1,11 +1,7 @@
-# Google CN special routing
-# Extracted from long rules file, minimized & maintainable
+# Google CN special routing (cleaned)
 
-# --- Domains ---
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 DOMAIN-SUFFIX,services.googleapis.cn
 
-# --- /32 IPs (exact matches, no-resolve) ---
 IP-CIDR,120.232.181.162/32,no-resolve
 IP-CIDR,120.241.147.226/32,no-resolve
 IP-CIDR,120.253.253.226/32,no-resolve
@@ -16,13 +12,11 @@ IP-CIDR,180.163.150.162/32,no-resolve
 IP-CIDR,180.163.150.34/32,no-resolve
 IP-CIDR,180.163.151.162/32,no-resolve
 IP-CIDR,180.163.151.34/32,no-resolve
-IP-CIDR,220.181.174.162/32,no-resolve
-IP-CIDR,220.181.174.226/32,no-resolve
-IP-CIDR,220.181.174.34/32,no-resolve
-
-# --- Selected 203.208 ranges (no-resolve) ---
 IP-CIDR,203.208.39.0/24,no-resolve
 IP-CIDR,203.208.40.0/24,no-resolve
 IP-CIDR,203.208.41.0/24,no-resolve
 IP-CIDR,203.208.43.0/24,no-resolve
 IP-CIDR,203.208.50.0/24,no-resolve
+IP-CIDR,220.181.174.162/32,no-resolve
+IP-CIDR,220.181.174.226/32,no-resolve
+IP-CIDR,220.181.174.34/32,no-resolve
